@@ -47,3 +47,93 @@
     background-color: #555; /* Hover effect */
   }
 
+  .hero {
+    position: relative;
+    background: url("images/hero-cover.1.jpg") no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+  }
+  
+  .hero__overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  
+  .hero__content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero__content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero__buttons a {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .btn--primary {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .btn--secondary {
+    border: 2px solid white;
+    color: white;
+  }
+
+  .icons {
+    position: relative;
+    background-color: #1e2a4a;
+    height: 100vh;
+    color: white;
+  }
+  
+  .icons__overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* dark overlay */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+  }
+  
+  .icons__content {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .icons__items div {
+    display: inline-block;
+    margin: 0 1rem;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .icons__items--left {
+    background-color: #2196F3;
+    color: white;
+  }
+  
+  .icons__items--middle {
+    background-color: #2196F3;
+    color: white;
+  }
+
+  .icons__items--right {
+    background-color: #2196F3;
+    color: white;
+  }
+
