@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
+
+
+
+/* img {
+    width: 100%;
+    filter: brightness(50%);
+} */
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Align logo and nav on opposite sides */
+    align-items: center; /* Vertically align logo and nav */
+    padding: 10px 20px;  /* Optional padding for spacing */
+    background-color: #333; /* Optional background color */
+  }
+  
+  .header__logo {
+    color: white; /* Adjust text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 24px; /* Set font size for the logo */
+  }
+  
+  .header__nav {
+    /* Optional: You can keep any styling for the navigation */
+  }
+  
+  .header__menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the menu items horizontal */
+  }
+  
+  .header__menu-item {
+    margin-right: 20px; /* Adds space between the menu items */
+  }
+  
+  .header__menu-item a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+  }
+  
+  .header__menu-item a:hover {
+    background-color: #555; /* Hover effect */
+  }
+
