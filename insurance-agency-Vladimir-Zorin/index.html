@@ -1,53 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrandName</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BrandName</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-    <header class="header">
-        <a href="/" class="header__logo">BrandName</a>
-        <nav class="header__nav">
-          <ul class="header__menu">
-            <li class="header__menu-item"><a href="index.html">Home</a></li>
-            <li class="header__menu-item"><a href="product.html">Product</a></li>
-            <li class="header__menu-item"><a href="pricing.html">Pricing</a></li>
-            <li class="header__menu-item"><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-    </header>
+  <!-- NAVBAR -->
+  <header class="header">
+    <div class="container">
+      <a href="/" class="header__logo">BrandName</a>
+      <nav class="header__nav">
+        <ul class="header__menu">
+          <li class="header__menu-item"><a href="index.html">Home</a></li>
+          <li class="header__menu-item"><a href="product.html">Product</a></li>
+          <li class="header__menu-item"><a href="pricing.html">Pricing</a></li>
+          <li class="header__menu-item"><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-      <div class="hero__overlay">
+  <!-- HERO IMAGE SECTION -->
+  <section class="hero">
+    <div class="hero__overlay">
+      <div class="container">
         <div class="hero__content">
-          <h1>We Ensure A Best Insurance Service</h1>
-          <p>We know how large objects will act, but things on a small scale.</p>
+          <h1>We Ensure A Best<br>Insurance Service</h1>
+          <p>We know how large objects will act,<br>but things on a small scale.</p>
           <div class="hero__buttons">
             <a href="#" class="btn btn--primary">Get Quote Now</a>
             <a href="#" class="btn btn--secondary">Learn More</a>
           </div>
         </div>
       </div>
-    </section>
-    
-    <!-- icons Section -->
-    <section class="icons">
-      <div class="icons__overlay">
+    </div>
+  </section>
+
+  <!-- ICON SECTION -->
+  <section class="icons">
+    <div class="icons__overlay">
+      <div class="container">
         <header class="icons__content">
           <div class="icons__items">
-            <div class="icons__items--left">Piece of Mind</div>
-            <div class="icons__items--middle">Set for Life</div>
-            <div class="icons__items--right">100% Satisfaction</div>
+            <div class="icons__items--left">
+              <img src="images/piece_of_mind_icon.svg" alt="Folder icon" />
+              <b>Piece of Mind</b><br><br>
+              So it really behaves like neither.<br>
+              Now we have given up.
+            </div>
+
+            <div class="icons__items--middle">
+              <img src="images/set_for_life_icon.svg" alt="Bookmark icon" />
+              <b>Set for Life</b><br><br>
+              They were used to create the<br>
+              machines that launched
+            </div>
+
+            <div class="icons__items--right">
+              <img src="images/100_percent_satisfaction_icon.svg" alt="people icon" />
+              <b>100% Satisfaction</b><br><br>
+              So it really behaves like neither.<br>
+              Now we have given up.
+            </div>
           </div>
         </header>
       </div>
-    </section>
+    </div>
+  </section>
+
+  <!-- TESTIMONIAL SECTION -->
+  <section class="testimonials">
+    <div class="container">
+      <div class="testimonials__heading">
+        <h2>What Clients Say</h2>
+        <p>Problems trying to resolve the conflict between<br>
+          the two major realms of Classical physics: Newtonian mechanics</p>
+      </div>
+  
+      <div class="testimonials__cards">
+        <div class="testimonial-card">
+          <img src="images/regina_miles_avatar.jpg" alt="Regina Miles" class="testimonial-img" />
+          <div class="testimonial-content">
+            <h3>Regina Miles</h3>
+            <span>Designer</span>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <p>This proved to be impossible using the traditional concepts of space and time...</p>
+          </div>
+        </div>
+  
+        <div class="testimonial-card">
+          <img src="images/simon_pots_avatar.jpg" alt="Regina Miles" class="testimonial-img" />
+          <div class="testimonial-content">
+            <h3>Regina Miles</h3>
+            <span>Designer</span>
+            <div class="stars">⭐ ⭐ ⭐ ⭐ ⭐</div>
+            <p>This proved to be impossible using the traditional concepts of space and time...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
 </body>
-
 </html>
